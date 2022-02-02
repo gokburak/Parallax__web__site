@@ -323,7 +323,41 @@ opacity: .7;
     outline: rgb(255,0,0) dashed 1px;
 }
 
-
+@media screen and (max-width:1743px) {
+    .header__fs{
+        width:100% ;
+    }
+    .section__fs--text{
+        width:100%
+    }
+    
+}
+@media screen and (max-width:1500px) {
+    .header__fs{
+        width:80% ;
+    }
+    .section__fs--text{
+        width:80%
+    }
+    
+    
+}
+@media screen and (max-width:1000px) {
+    .header__fs{
+        width:80% ;
+    }
+    .section__fs--text{
+        width:80%
+    }
+}
+@media screen and (max-width:768px) {
+    .header__fs{
+        width:80% ;
+    }
+    .section__fs--text{
+        width:80%
+    }
+}
 
 
 
